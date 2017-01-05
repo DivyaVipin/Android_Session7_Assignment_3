@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    tools:context="assignment.android.acadgild.reteiveimage.MainActivity">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Name"
+        android:textColor="@color/colorBlack"
+        android:background="@color/colorBlue"
+        android:id="@+id/textViewName"
+
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PersonName"
+        android:id="@+id/textViewPersonName"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"/>
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="@string/Age"
+        android:background="@color/colorBlue"
+        android:id="@+id/textViewAge"
+
+        android:layout_alignParentStart="true"
+        android:textAlignment="center"
+        android:textColor="@color/colorBlack"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Person Age"
+        android:id="@+id/textViewPersonAge"
+        android:layout_marginLeft="30dp"
+         />
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Photo"
+        android:background="@color/colorBlue"
+        android:textColor="@color/colorBlack"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewPerson"
+        android:layout_below="@+id/textViewAge"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp" />
+</LinearLayout>
+
+
+</LinearLayout>
